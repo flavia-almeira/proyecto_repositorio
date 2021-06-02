@@ -1,0 +1,53 @@
+/*VARIABLES DE COLOR*/
+/*Seccion Index*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif; }
+
+/*NAVBAR*/
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  background-color: #480032; }
+  .navbar .logo {
+    width: 100px; }
+  .navbar .navbar__nav__link:hover {
+    color: #FFFFFF; }
+  .navbar .dropdown-menu {
+    background-color: #fc92e3 !important; }
+    .navbar .dropdown-menu .dropdown-item {
+      color: #FFFFFF; }
+      .navbar .dropdown-menu .dropdown-item:hover {
+        background-color: #480032 !important; }
+    .navbar .dropdown-menu:hover {
+      background-color: #fc92e3 !important; }
+
+/*FOOTER*/
+footer .footer__informacion {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1em;
+  background-color: #520432;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+  footer .footer__informacion .footer__informacion__img {
+    margin-bottom: 10px;
+    width: 33px; }
+
+footer .footer__redes {
+  display: flex;
+  padding: 5px;
+  background: #1a1919;
+  justify-content: left;
+  padding: 16px; }
+  footer .footer__redes .footer__redes__img {
+    height: 16px;
+    margin: 0 16px; }

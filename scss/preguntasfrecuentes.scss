@@ -1,0 +1,49 @@
+/*VARIABLES DE COLOR*/
+$primary-footer-color:#1a1919;
+$color-texto-titulo:#520432;
+
+/*SECCION PREGUNTAS FRECUENTES*/
+.breadcrumb-item{
+    color: #fc92e3!important;
+  }
+
+.preguntas {
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    min-height: 90vh;
+
+    .preguntas__titulo {
+        font-size: 24px;
+        color: $color-texto-titulo;
+        text-align: center;
+        margin: 25px 0 25px;
+    }
+
+    .preguntas__item {
+        margin-bottom: 16px;
+
+
+        .preguntas__item__pregunta {
+            color: $color-texto-titulo;
+            font: "Montserrat", sans-serif;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+      
+    
+     
+}
+
+        .preguntas__item_respuesta {
+            text-align: center;
+            font: "Montserrat", sans-serif;
+            padding: 12px;
+
+        }
+    }
+
+
+
+

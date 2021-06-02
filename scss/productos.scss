@@ -1,0 +1,54 @@
+/*VARIABLES DE COLOR*/
+
+$primary-footer-color:#1a1919;
+$color-texto-titulo:#520432;
+
+/*SECCION PRODUCTOS*/
+
+@for $i from 1 through 3 {
+  .imagen-#{$i} {
+    content:url("../assets/imagenes/productos/imagen0#{$i}.jpg");
+
+  }
+
+}
+
+
+.breadcrumb-item{
+  color: #fc92e3!important;
+}
+
+
+.card-deck {
+  margin-bottom: 10%;
+}
+
+.titulo__Productos {
+  text-align: center;
+  padding: 5px;
+  color: $color-texto-titulo;
+  font-size: 32px;
+
+}
+
+.productos__subtitulo{
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: $color-texto-titulo;
+  
+}
+
+
+.modal__textocolor {
+  color: #ffffff;
+  text-align: center;
+  background-color: #fc92e3;
+}
+
+.parrafo__color {
+  background-color: #fc92e3;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}

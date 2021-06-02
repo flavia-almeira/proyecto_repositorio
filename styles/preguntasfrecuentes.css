@@ -1,0 +1,27 @@
+/*VARIABLES DE COLOR*/
+/*SECCION PREGUNTAS FRECUENTES*/
+.breadcrumb-item {
+  color: #fc92e3 !important; }
+
+.preguntas {
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  min-height: 90vh; }
+  .preguntas .preguntas__titulo {
+    font-size: 24px;
+    color: #520432;
+    text-align: center;
+    margin: 25px 0 25px; }
+  .preguntas .preguntas__item {
+    margin-bottom: 16px; }
+    .preguntas .preguntas__item .preguntas__item__pregunta {
+      color: #520432;
+      font: "Montserrat", sans-serif;
+      padding: 8px;
+      font-weight: bold;
+      font-size: 18px; }
+  .preguntas .preguntas__item_respuesta {
+    text-align: center;
+    font: "Montserrat", sans-serif;
+    padding: 12px; }

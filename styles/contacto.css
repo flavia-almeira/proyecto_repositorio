@@ -1,0 +1,63 @@
+/*VARIABLES DE COLOR*/
+/*CONTACTO*/
+.breadcrumb-item {
+  color: #fc92e3 !important; }
+
+.contacto {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 18px; }
+  .contacto .contacto__titulo {
+    color: #520432;
+    font-size: 24px; }
+  .contacto .contacto__texto {
+    color: #520432; }
+
+.formulario {
+  box-sizing: border-box;
+  margin: 50px;
+  padding: 60px;
+  max-width: 300%;
+  background-color: #360533;
+  border-radius: 5px;
+  text-align: start; }
+  .formulario .formulario__item {
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 8px; }
+    .formulario .formulario__item .formulario__item__btn_opciones {
+      display: ruby-base-container;
+      background-color: #fc92e3;
+      padding: 20px 45px 20px 45px;
+      border: 1px;
+      font-size: 1em;
+      color: white;
+      font-family: "Montserrat", sans-serif; }
+    .formulario .formulario__item .formulario__item__input {
+      margin-bottom: 15px;
+      font-family: "Montserrat", sans-serif;
+      width: 100%;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      border: none;
+      color: #ea9ab2;
+      font-size: 1em;
+      resize: horizontal; }
+      .formulario .formulario__item .formulario__item__input:focus {
+        width: 150px;
+        font-size: 16px; }
+  .formulario .formulario__item__btn, .formulario .formulario__item__btn--cancelar, .formulario .formulario__item__btn--enviar {
+    display: ruby-base-container;
+    background-color: #fc92e3;
+    padding: 10px 45px 10px 45px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    margin-top: 10px; }
+    .formulario .formulario__item__btn--cancelar {
+      background-color: #000000; }
+    .formulario .formulario__item__btn--enviar {
+      background-color: #fc92e3; }

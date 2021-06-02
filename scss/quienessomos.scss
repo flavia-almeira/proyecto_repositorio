@@ -1,0 +1,64 @@
+/*VARIABLES DE COLOR*/
+$primary-footer-color:#1a1919;
+$color-texto-titulo:#520432;
+
+/*CONDICIONAL*/
+$result:parrafo;
+
+
+/*QUIENES SOMOS*/
+
+
+.breadcrumb-item{
+    color: #fc92e3!important;
+  }
+
+
+.quienessomos {
+
+    .quienessomos__header {
+
+        display: flex;
+        flex-direction: row;
+
+        .quienessomos__header__titulo {
+            margin-top: 10px;
+            padding: 30px;
+            color: $color-texto-titulo;
+            font-size: 24px;
+            text-align: center;
+            animation-duration: 15s;
+
+
+        }
+
+        .quienessomos__header__img {
+            width: 50px
+        }
+    }
+
+
+    .quienessomos__texto {
+        margin: 10px 0 10px;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 1.5;
+        font-style: italic;
+
+
+        @if $result==parrafo {
+            color: #000000;
+        }
+
+        @else if $result==otrocolor {
+            color: #6A041A;
+        }
+
+
+        .quienessomos__img {
+            width: 100%;
+            margin: 50px 0 100px;
+
+        }
+    }
+}

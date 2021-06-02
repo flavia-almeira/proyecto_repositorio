@@ -1,0 +1,99 @@
+/*VARIABLES DE COLOR*/
+$primary-footer-color:#1a1919;
+$color-texto-titulo:#520432;
+
+
+$botones:(cancelar:#000000, enviar:#fc92e3);
+
+
+/*CONTACTO*/
+
+.breadcrumb-item{
+    color: #fc92e3!important;
+  }
+
+.contacto {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+
+    .contacto__titulo {
+        color: $color-texto-titulo;
+        font-size: 24px;
+    }
+
+    .contacto__texto {
+        color: $color-texto-titulo;
+    }
+}
+
+.formulario {
+    box-sizing: border-box;
+    margin: 50px;
+    padding: 60px;
+    max-width: 300%;
+    background-color: rgb(54, 5, 51);
+    border-radius: 5px;
+    text-align: start;
+
+    .formulario__item {
+        color: rgb(255, 255, 255);
+        margin-top: 4px;
+        margin-bottom: 8px;
+
+        .formulario__item__btn_opciones {
+            display: ruby-base-container;
+            background-color: #fc92e3;
+            padding: 20px 45px 20px 45px;
+            border: 1px;
+            font-size: 1em;
+            color: white;
+            font-family: "Montserrat", sans-serif;
+        }
+
+        .formulario__item__input {
+            margin-bottom: 15px;
+            font-family: "Montserrat", sans-serif;
+            width: 100%;
+            padding: 10px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            border: none;
+            color: #ea9ab2;
+            font-size: 1em;
+            resize: horizontal;
+
+            &:focus {
+                width: 150px;
+                font-size: 16px;
+            }
+        }
+    }
+
+
+
+    .formulario__item__btn {
+        display: ruby-base-container;
+        background-color: #fc92e3;
+        padding: 10px 45px 10px 45px;
+        border: 0;
+        color: #FFFFFF;
+        font-size: 1em;
+        font-family: "Montserrat", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+
+
+        @each $btn-nombre,
+        $btn-color in $botones {
+            &--#{$btn-nombre} {
+                @extend .formulario__item__btn;
+                background-color: $btn-color;
+
+            }
+        }
+
+    }
+
+
+}

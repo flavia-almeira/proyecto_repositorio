@@ -1,0 +1,29 @@
+/*VARIABLES DE COLOR*/
+/*CONDICIONAL*/
+/*QUIENES SOMOS*/
+.breadcrumb-item {
+  color: #fc92e3 !important; }
+
+.quienessomos .quienessomos__header {
+  display: flex;
+  flex-direction: row; }
+  .quienessomos .quienessomos__header .quienessomos__header__titulo {
+    margin-top: 10px;
+    padding: 30px;
+    color: #520432;
+    font-size: 24px;
+    text-align: center;
+    animation-duration: 15s; }
+  .quienessomos .quienessomos__header .quienessomos__header__img {
+    width: 50px; }
+
+.quienessomos .quienessomos__texto {
+  margin: 10px 0 10px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #000000; }
+  .quienessomos .quienessomos__texto .quienessomos__img {
+    width: 100%;
+    margin: 50px 0 100px; }

@@ -1,0 +1,92 @@
+/*VARIABLES DE COLOR*/
+
+$primary-footer-color:#1a1919;
+$color-texto-titulo:#520432;
+$logo-width:200px;
+$white:#FFFFFF;
+
+/*Seccion Index*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/*NAVBAR*/
+.navbar {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    background-color: #480032;
+
+    .logo {
+        width: $logo-width/2;
+    }
+
+    .navbar__nav__link {
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: #fc92e3 !important;
+
+        .dropdown-item {
+            color: $white;
+
+            &:hover {
+                background-color: #480032 !important;
+            }
+        }
+
+        &:hover {
+            background-color: #fc92e3 !important;
+        }
+    }
+}
+
+
+/*FOOTER*/
+
+footer {
+
+    .footer__informacion {
+        color: $white;
+        text-align: center;
+        font-size: 1em;
+
+        background-color: #520432;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+
+        .footer__informacion__img {
+            margin-bottom: 10px;
+            width: 33px;
+        }
+    }
+
+    .footer__redes {
+        display: flex;
+        padding: 5px;
+        background: #1a1919;
+
+        justify-content: left;
+        padding: 16px;
+
+        .footer__redes__img {
+            height: 16px;
+            margin: 0 16px;
+        }
+    }
+}
