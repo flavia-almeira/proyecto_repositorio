@@ -52,6 +52,35 @@ $white:#FFFFFF;
     }
 }
 
+.contenedor-whatsapp {
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+
+}
+
+
+.btn-whatsapp {
+
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 10px rgba($color: #088a04, $alpha: 1.0);
+    z-index: 999;
+
+
+
+    &:hover {
+        opacity: 0.7;
+        transform: scaleY(1, 1);
+        transition: 0, 5 s;
+
+    }
+
+}
+
 
 /*FOOTER*/
 
@@ -61,8 +90,7 @@ footer {
         color: $white;
         text-align: center;
         font-size: 1em;
-
-        background-color: #520432;
+        background-color: #1a1919;
         padding-top: 16px;
         padding-bottom: 16px;
         display: flex;
@@ -81,7 +109,7 @@ footer {
         padding: 5px;
         background: #1a1919;
 
-        justify-content: left;
+        justify-content: center;
         padding: 16px;
 
         .footer__redes__img {
@@ -89,4 +117,34 @@ footer {
             margin: 0 16px;
         }
     }
+}
+
+.mapa__desitio {
+    display: flex;
+    justify-content: center;
+    background-color: #1a1919;
+
+
+
+
+
+    & .mapa__desitio__lista li {
+        display: inline;
+        padding-left: 3px;
+        padding-right: 3px;
+
+
+        & a {
+            font-size: 14px;
+            list-style: none;
+            text-decoration: none;
+            margin-left: 25px;
+            color: #ffffff;
+
+            &:hover {
+                color: #dd3ab4;
+            }
+        }
+    }
+
 }

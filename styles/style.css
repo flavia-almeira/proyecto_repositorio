@@ -27,12 +27,30 @@
     .navbar .dropdown-menu:hover {
       background-color: #fc92e3 !important; }
 
+.contenedor-whatsapp {
+  position: fixed;
+  bottom: 50px;
+  right: 0; }
+
+.btn-whatsapp {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  line-height: 55px;
+  border-radius: 50px;
+  box-shadow: 0px 1px 10px #088a04;
+  z-index: 999; }
+  .btn-whatsapp:hover {
+    opacity: 0.7;
+    transform: scaleY(1, 1);
+    transition: 0, 5 s; }
+
 /*FOOTER*/
 footer .footer__informacion {
   color: #FFFFFF;
   text-align: center;
   font-size: 1em;
-  background-color: #520432;
+  background-color: #1a1919;
   padding-top: 16px;
   padding-bottom: 16px;
   display: flex;
@@ -46,8 +64,25 @@ footer .footer__redes {
   display: flex;
   padding: 5px;
   background: #1a1919;
-  justify-content: left;
+  justify-content: center;
   padding: 16px; }
   footer .footer__redes .footer__redes__img {
     height: 16px;
     margin: 0 16px; }
+
+.mapa__desitio {
+  display: flex;
+  justify-content: center;
+  background-color: #1a1919; }
+  .mapa__desitio .mapa__desitio__lista li {
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px; }
+    .mapa__desitio .mapa__desitio__lista li a {
+      font-size: 14px;
+      list-style: none;
+      text-decoration: none;
+      margin-left: 25px;
+      color: #ffffff; }
+      .mapa__desitio .mapa__desitio__lista li a:hover {
+        color: #dd3ab4; }
