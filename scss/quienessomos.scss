@@ -9,45 +9,49 @@ $result:parrafo;
 /*QUIENES SOMOS*/
 
 
-.breadcrumb-item{
-    color: #fc92e3!important;
-  }
+
 
 
 .quienessomos {
+    margin-top: 120px;
+    background: url(../assets/imagenes/fotoprueba.jpg)no-repeat center fixed;
+    background-size: cover;
+
+
+
 
     .quienessomos__header {
-
         display: flex;
         flex-direction: row;
+
+
 
         .quienessomos__header__titulo {
             margin-top: 10px;
             padding: 30px;
             color: $color-texto-titulo;
-            font-size: 24px;
+            font-size: 44px;
             text-align: center;
             animation-duration: 15s;
 
 
         }
-
-        .quienessomos__header__img {
-            width: 50px
-        }
     }
 
 
     .quienessomos__texto {
-        margin: 10px 0 10px;
+        margin: 20px 0 20px;
+        padding: 30px;
         text-align: justify;
         font-size: 16px;
         line-height: 1.5;
         font-style: italic;
+        background: rgba(0, 0, 0, 0.8);
+
 
 
         @if $result==parrafo {
-            color: #000000;
+            color: #ffffff;
         }
 
         @else if $result==otrocolor {

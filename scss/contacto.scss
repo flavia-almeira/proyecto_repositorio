@@ -8,43 +8,39 @@ $botones:(cancelar:#000000, enviar:#fc92e3);
 
 /*CONTACTO*/
 
-.breadcrumb-item{
-    color: #fc92e3!important;
-  }
-
 .contacto {
-    margin-top: 10px;
+    background:url(../assets/imagenes/contactofotonueva.jpg) no-repeat center fixed;
+    background-size: cover;
+    margin-top: 126px;
+
+   
+.contacto__titulo {
+    
+    font-size: 44px;
     text-align: center;
-    font-size: 18px;
-
-    .contacto__titulo {
-        color: $color-texto-titulo;
-        font-size: 24px;
-    }
-
-    .contacto__texto {
-        color: $color-texto-titulo;
-    }
+    background:rgba(173, 51, 147, 0.6);
+    width: 100%;
 }
+    }
+
+    
 
 .formulario {
     box-sizing: border-box;
-    margin: 50px;
-    padding: 60px;
-    max-width: 300%;
-    background-color: rgb(54, 5, 51);
-    border-radius: 5px;
+    margin: 0px 60px 60px 60px;
+    padding: 20px;
+    background-color: rgba(221, 221, 221, 0.6);
     text-align: start;
 
     .formulario__item {
-        color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         margin-top: 4px;
         margin-bottom: 8px;
 
         .formulario__item__btn_opciones {
             display: ruby-base-container;
             background-color: #fc92e3;
-            padding: 20px 45px 20px 45px;
+            padding: 10px 45px 20px 45px;
             border: 1px;
             font-size: 1em;
             color: white;
@@ -61,12 +57,9 @@ $botones:(cancelar:#000000, enviar:#fc92e3);
             border: none;
             color: #ea9ab2;
             font-size: 1em;
-            resize: horizontal;
+           
 
-            &:focus {
-                width: 150px;
-                font-size: 16px;
-            }
+           
         }
     }
 
@@ -94,6 +87,5 @@ $botones:(cancelar:#000000, enviar:#fc92e3);
         }
 
     }
-
 
 }

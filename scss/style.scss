@@ -1,20 +1,21 @@
 /*VARIABLES DE COLOR*/
 
-$primary-footer-color:#1a1919;
-$color-texto-titulo:#520432;
-$logo-width:200px;
-$white:#FFFFFF;
+$primary-footer-color:#01021d;
+$color-texto-titulo:#ff7673;
+$logo-width:300px;
+
 
 /*Seccion Index*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-
+    font-family: 'Parisienne', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*NAVBAR*/
+
 .navbar {
 
     display: flex;
@@ -22,32 +23,40 @@ $white:#FFFFFF;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    background-color: #480032;
+    background: $color-texto-titulo;
+
+
+
 
     .logo {
-        width: $logo-width/2;
+        width: $logo-width/3;
+
     }
 
-    .navbar__nav__link {
+    .nav-link {
+        color: #000000;
+        font-weight: bold;
+
 
         &:hover {
-            color: $white;
+            color: #e7e7e7;
         }
     }
 
+
     .dropdown-menu {
-        background-color: #fc92e3 !important;
+        background-color: #0c0109e5 !important;
 
         .dropdown-item {
-            color: $white;
+            color: #ffffff;
 
             &:hover {
-                background-color: #480032 !important;
+                background-color: #353434 !important;
             }
         }
 
         &:hover {
-            background-color: #fc92e3 !important;
+            background-color: $color-texto-titulo !important;
         }
     }
 }
@@ -67,8 +76,7 @@ $white:#FFFFFF;
     height: 50px;
     line-height: 55px;
     border-radius: 50px;
-    box-shadow: 0px 1px 10px rgba($color: #088a04, $alpha: 1.0);
-    z-index: 999;
+
 
 
 
@@ -81,41 +89,105 @@ $white:#FFFFFF;
 
 }
 
+.container {
+    margin-bottom: 20px;
+
+    .servicios__texto {
+        font-size: 20px;
+        font-weight: bold;
+
+
+
+    }
+
+    .servicios__contenedor_1 {
+        margin: 0 auto;
+        background: #1f101a;
+        width: 12rem;
+        color: #ffffff;
+        border-radius: 20px;
+        text-align: center;
+        border: solid 1px;
+
+
+
+    }
+
+    .servicios__contenedor_2 {
+        margin: 0 auto;
+        background: #c55659;
+        width: 12rem;
+        color: #ffffff;
+        border-radius: 20px;
+        text-align: center;
+        border: solid 1px;
+    }
+
+    .servicios__contenedor_3 {
+        margin: 0 auto;
+        background: #da7677;
+        width: 12rem;
+        color: #ffffff;
+        border-radius: 20px;
+        text-align: center;
+        border: solid 1px;
+    }
+
+    .servicios__contenedor_4 {
+        margin: 0 auto;
+        background: #ed9696;
+        width: 12rem;
+        color: #ffffff;
+        border-radius: 20px;
+        text-align: center;
+        border: solid 1px;
+    }
+
+    .servicios__img {
+
+        &.servicios__img1 {
+            height: 16vh;
+            width: 16vh;
+
+
+
+        }
+
+        &.servicios__img2 {
+            height: 16vh;
+            width: 16vh;
+        }
+
+        &.servicios__img3 {
+            height: 16vh;
+            width: 16vh;
+        }
+
+        &.servicios__img4 {
+            height: 16vh;
+            width: 16vh;
+        }
+    }
+
+}
+
+
 
 /*FOOTER*/
 
 footer {
 
-    .footer__informacion {
-        color: $white;
-        text-align: center;
-        font-size: 1em;
-        background-color: #1a1919;
-        padding-top: 16px;
-        padding-bottom: 16px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-
-
-        .footer__informacion__img {
-            margin-bottom: 10px;
-            width: 33px;
-        }
-    }
-
     .footer__redes {
         display: flex;
         padding: 5px;
         background: #1a1919;
-
         justify-content: center;
         padding: 16px;
 
         .footer__redes__img {
-            height: 16px;
-            margin: 0 16px;
-        }
+            height: 20px;
+            margin: 0 16px;   
+        }   
     }
 }
 
@@ -124,10 +196,6 @@ footer {
     justify-content: center;
     background-color: #1a1919;
 
-
-
-
-
     & .mapa__desitio__lista li {
         display: inline;
         padding-left: 3px;
@@ -135,14 +203,14 @@ footer {
 
 
         & a {
-            font-size: 14px;
+            font-size: 20px;
             list-style: none;
             text-decoration: none;
             margin-left: 25px;
             color: #ffffff;
 
             &:hover {
-                color: #dd3ab4;
+                color: #ff7673;
             }
         }
     }

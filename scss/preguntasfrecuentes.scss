@@ -3,47 +3,51 @@ $primary-footer-color:#1a1919;
 $color-texto-titulo:#520432;
 
 /*SECCION PREGUNTAS FRECUENTES*/
-.breadcrumb-item{
-    color: #fc92e3!important;
-  }
 
 .preguntas {
-    margin: 0;
+    margin-top: 120px;
     max-width: 100%;
-    text-align: center;
+    text-align: left;
     min-height: 90vh;
+    background: url(../assets/imagenes/fondoweb.png) no-repeat center fixed;
+    background-size: cover;
+
 
     .preguntas__titulo {
-        font-size: 24px;
+        font-size: 44px;
         color: $color-texto-titulo;
-        text-align: center;
         margin: 25px 0 25px;
+        animation-duration: 15s;
+
+
     }
 
     .preguntas__item {
         margin-bottom: 16px;
+        background-color: #1a1919;
+        background: rgba(0, 0, 0, 0.8);
+        text-align: center;
 
 
         .preguntas__item__pregunta {
-            color: $color-texto-titulo;
+            color: #ffffff;
             font: "Montserrat", sans-serif;
             padding: 8px;
             font-weight: bold;
             font-size: 18px;
         }
-      
-    
-     
-}
 
-        .preguntas__item_respuesta {
-            text-align: center;
-            font: "Montserrat", sans-serif;
-            padding: 12px;
 
-        }
+
+    }
+
+    .preguntas__item_respuesta {
+        text-align: justify;
+        font: "Montserrat", sans-serif;
+        padding: 12px;
+        color: #ffffff;
+
     }
 
 
-
-
+}

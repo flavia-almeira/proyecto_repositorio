@@ -1,34 +1,29 @@
 /*VARIABLES DE COLOR*/
 /*CONTACTO*/
-.breadcrumb-item {
-  color: #fc92e3 !important; }
-
 .contacto {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 18px; }
+  background: url(../assets/imagenes/contactofotonueva.jpg) no-repeat center fixed;
+  background-size: cover;
+  margin-top: 126px; }
   .contacto .contacto__titulo {
-    color: #520432;
-    font-size: 24px; }
-  .contacto .contacto__texto {
-    color: #520432; }
+    font-size: 44px;
+    text-align: center;
+    background: rgba(173, 51, 147, 0.6);
+    width: 100%; }
 
 .formulario {
   box-sizing: border-box;
-  margin: 50px;
-  padding: 60px;
-  max-width: 300%;
-  background-color: #360533;
-  border-radius: 5px;
+  margin: 0px 60px 60px 60px;
+  padding: 20px;
+  background-color: rgba(221, 221, 221, 0.6);
   text-align: start; }
   .formulario .formulario__item {
-    color: white;
+    color: black;
     margin-top: 4px;
     margin-bottom: 8px; }
     .formulario .formulario__item .formulario__item__btn_opciones {
       display: ruby-base-container;
       background-color: #fc92e3;
-      padding: 20px 45px 20px 45px;
+      padding: 10px 45px 20px 45px;
       border: 1px;
       font-size: 1em;
       color: white;
@@ -42,11 +37,7 @@
       box-sizing: border-box;
       border: none;
       color: #ea9ab2;
-      font-size: 1em;
-      resize: horizontal; }
-      .formulario .formulario__item .formulario__item__input:focus {
-        width: 150px;
-        font-size: 16px; }
+      font-size: 1em; }
   .formulario .formulario__item__btn, .formulario .formulario__item__btn--cancelar, .formulario .formulario__item__btn--enviar {
     display: ruby-base-container;
     background-color: #fc92e3;

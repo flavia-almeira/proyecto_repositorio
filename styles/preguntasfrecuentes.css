@@ -1,27 +1,30 @@
 /*VARIABLES DE COLOR*/
 /*SECCION PREGUNTAS FRECUENTES*/
-.breadcrumb-item {
-  color: #fc92e3 !important; }
-
 .preguntas {
-  margin: 0;
+  margin-top: 120px;
   max-width: 100%;
-  text-align: center;
-  min-height: 90vh; }
+  text-align: left;
+  min-height: 90vh;
+  background: url(../assets/imagenes/fondoweb.png) no-repeat center fixed;
+  background-size: cover; }
   .preguntas .preguntas__titulo {
-    font-size: 24px;
+    font-size: 44px;
     color: #520432;
-    text-align: center;
-    margin: 25px 0 25px; }
+    margin: 25px 0 25px;
+    animation-duration: 15s; }
   .preguntas .preguntas__item {
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    background-color: #1a1919;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center; }
     .preguntas .preguntas__item .preguntas__item__pregunta {
-      color: #520432;
+      color: #ffffff;
       font: "Montserrat", sans-serif;
       padding: 8px;
       font-weight: bold;
       font-size: 18px; }
   .preguntas .preguntas__item_respuesta {
-    text-align: center;
+    text-align: justify;
     font: "Montserrat", sans-serif;
-    padding: 12px; }
+    padding: 12px;
+    color: #ffffff; }
