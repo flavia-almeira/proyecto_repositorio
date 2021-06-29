@@ -1,68 +1,41 @@
 /*VARIABLES DE COLOR*/
 $primary-footer-color:#1a1919;
-$color-texto-titulo:#520432;
+$color-texto-titulo:#ff7673;
 
-/*CONDICIONAL*/
-$result:parrafo;
+
 
 
 /*QUIENES SOMOS*/
 
-
-
-
-
-.quienessomos {
-    margin-top: 120px;
+body{
     background: url(../assets/imagenes/fotoprueba.jpg)no-repeat center fixed;
     background-size: cover;
 
+}
 
-
-
-    .quienessomos__header {
-        display: flex;
-        flex-direction: row;
-
-
-
-        .quienessomos__header__titulo {
-            margin-top: 10px;
-            padding: 30px;
-            color: $color-texto-titulo;
-            font-size: 44px;
-            text-align: center;
-            animation-duration: 15s;
-
-
-        }
+.quienessomos{
+    margin-bottom: 50px;
+    
+    .quienessomos__header__titulo {
+        margin-top: 120px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 36px;
+        font-weight: 600;
+        letter-spacing: 3px;
+       
     }
-
 
     .quienessomos__texto {
         margin: 20px 0 20px;
         padding: 30px;
         text-align: justify;
+        letter-spacing: 1px;
         font-size: 16px;
         line-height: 1.5;
         font-style: italic;
-        background: rgba(0, 0, 0, 0.8);
-
-
-
-        @if $result==parrafo {
-            color: #ffffff;
-        }
-
-        @else if $result==otrocolor {
-            color: #6A041A;
-        }
-
-
-        .quienessomos__img {
-            width: 100%;
-            margin: 50px 0 100px;
-
-        }
+        background:#1a1919;
+        border-radius: 10px 10px 10px 10px;
+        color: #FFFFFF;
     }
 }

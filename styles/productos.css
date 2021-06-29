@@ -1,39 +1,34 @@
 /*VARIABLES DE COLOR*/
 /*SECCION PRODUCTOS*/
-.imagen-1 {
-  content: url("../assets/imagenes/productos/imagen01.jpg"); }
-
-.imagen-2 {
-  content: url("../assets/imagenes/productos/imagen02.jpg"); }
-
-.imagen-3 {
-  content: url("../assets/imagenes/productos/imagen03.jpg"); }
-
-.productos__seccion {
-  margin-top: 125px;
+body {
   background: url(../assets/imagenes/fondoproductos.jpg) no-repeat center fixed;
   background-size: cover; }
 
 .titulo__principal {
+  margin-top: 120px;
   text-align: center;
   color: #FFFFFF;
   font-size: 36px;
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: 3px; }
 
 .productos__subtitulo {
   text-align: center;
-  font-size: 18px;
+  font-size: 24px;
   margin-bottom: 15px;
-  color: #520432; }
-
-.card__texto {
-  font-size: 24px; }
+  color: #ff7673; }
 
 .card {
-  margin: 50px;
+  margin: 60px;
   padding: 10px;
   color: #000000 !important;
-  background-color: #d65d7a !important; }
+  background-color: #e36866b0 !important; }
+  .card .card__texto {
+    font-size: 24px;
+    font-weight: bold; }
+  .card .descripcion__card {
+    font-weight: bold;
+    font-size: 16px; }
 
 .img__efecto {
   filter: gray;
@@ -45,8 +40,8 @@
     -webkit-filter: grayscale(0%); }
 
 :root {
-  --color-inactivo: #5f5050;
-  --color-hover: #ff0095; }
+  --color-inactivo: #242121;
+  --color-hover: #eeff00; }
 
 .valoracion {
   display: flex;
@@ -94,11 +89,17 @@ button:nth-child(5):hover ~ button {
 
 .quiero__boton {
   letter-spacing: 1px;
-  background-color: #54cd3c;
-  color: white;
-  border-radius: 15px;
+  border-radius: 15px 15px 15px 15px;
   border: none;
-  padding: 10px;
+  padding: 6px;
   text-decoration: none;
-  margin: 12px;
-  cursor: pointer; }
+  margin: 12px 0 0 0;
+  cursor: pointer;
+  font-weight: bold;
+  border-color: #32C9B0;
+  color: black;
+  box-shadow: 0 0 40px 40px #32C9B0 inset, 0 0 0 0 #32C9B0;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out; }
+  .quiero__boton:hover {
+    box-shadow: 0 0 10px 0 #32C9B0 inset, 0 0 10px 4px #32C9B0; }
