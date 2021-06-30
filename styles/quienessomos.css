@@ -24,16 +24,3 @@ body {
     font-style: italic;
     font-weight: bold;
     color: #FFFFFF; }
-
-.masinfo__contenedor {
-  background: linear-gradient(90deg, #585656, #ce4c4c); }
-  .masinfo__contenedor .servicios__texto {
-    font-size: 20px;
-    font-weight: bold; }
-  .masinfo__contenedor .servicios__contenedor {
-    width: 16rem;
-    color: #ffffff;
-    text-align: center; }
-  .masinfo__contenedor .servicios__img {
-    height: 16vh;
-    width: 16vh; }

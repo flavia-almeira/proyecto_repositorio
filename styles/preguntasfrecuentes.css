@@ -22,26 +22,14 @@ body {
     margin: 60px 0 50px;
     text-align: center; }
     .seccion__preguntas .preguntas__item .preguntas__item__pregunta {
-      color: #ffffff;
+      color: #07f1ca;
       font-weight: bold;
-      font-size: 18px;
+      font-size: 24px;
       margin: 10px 0 10px; }
   .seccion__preguntas .preguntas__item_respuesta {
     text-align: justify;
     padding: 10px;
     color: #ffffff;
     font-size: 18px;
-    font-weight: bold; }
-
-.masinfo__contenedor {
-  background: linear-gradient(90deg, #585656, #ce4c4c); }
-  .masinfo__contenedor .servicios__texto {
-    font-size: 20px;
-    font-weight: bold; }
-  .masinfo__contenedor .servicios__contenedor {
-    width: 16rem;
-    color: #ffffff;
-    text-align: center; }
-  .masinfo__contenedor .servicios__img {
-    height: 16vh;
-    width: 16vh; }
+    font-weight: bold;
+    letter-spacing: 1px; }

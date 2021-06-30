@@ -62,9 +62,6 @@ body {
   color: #000000;
   transform: translateY(-10px); }
 
-.masinfo__contenedor {
-  background: linear-gradient(90deg, #585656, #ce4c4c); }
-
 .servicios__texto {
   font-size: 20px;
   font-weight: bold; }
