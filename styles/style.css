@@ -1,5 +1,4 @@
 /*VARIABLES DE COLOR*/
-/*Seccion Index*/
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +47,7 @@
 
 /*INDEX*/
 .index__body {
-  background: url(../assets/imagenes/inicioimg.jpg) no-repeat center fixed;
+  background: url(../assets/imagenes/fondoindex.jpg) no-repeat center fixed;
   background-size: cover; }
 
 .contenedor__frase__img {
