@@ -5,19 +5,19 @@ $color-texto-titulo:#ff7673;
 /*SECCION PREGUNTAS FRECUENTES*/
 
 body {
-    margin-top: 100px;
-    max-width: 100%;
-    text-align: left;
-    min-height: 90vh;
     background:url(../assets/imagenes/fondopreguntas.png)center no-repeat fixed;
     background-size: cover;
 }
 
+.preguntas_frecuentes_main{
+    margin-top:120px;
+    margin-bottom:60px;
+}
 
 .seccion__preguntas{
-  background-color: #1a1919;
-  margin: 120px 0px 120px 120px;
-  border-radius: 10px 10px 10px 10px;
+ 
+background: #1a1919a1;
+border-radius: 10px 10px 10px 10px;
 
   
   
@@ -25,7 +25,7 @@ body {
     .preguntas__titulo {
         margin-top: 10px;
         text-align: center;
-        color: #FFFFFF;
+        color: #ffffff;
         font-size: 36px;
         font-weight:600;
         letter-spacing: 3px;
@@ -52,11 +52,38 @@ body {
         padding: 10px;
         color: #ffffff;
         font-size: 18px;
+        font-weight: bold;
 
     }
+ 
+ 
+
 }
 
-.imagen__estilos{
-   margin: 120px 120px 120px 120px;
-   border-radius: 10px 10px 10px 10px;
-}
+
+
+.masinfo__contenedor {
+    background: linear-gradient(90deg, rgb(88, 86, 86), rgb(206, 76, 76));
+   
+    
+    .servicios__texto {
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+    
+    .servicios__contenedor {
+        width: 16rem;
+        color: #ffffff;
+        text-align: center;
+    
+    
+    
+    }
+    
+    
+    .servicios__img {
+        height: 16vh;
+        width: 16vh;
+    }
+    }

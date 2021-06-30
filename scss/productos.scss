@@ -8,9 +8,24 @@ $color-texto-titulo:#ff7673;
 
 
 body {
+  background: linear-gradient(-45deg, #ff7573ab, #000000, #b83e3ec7, #0ffaac);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 
-  background: url(../assets/imagenes/fondoproductos.jpg) no-repeat center fixed;
-  background-size: cover;
+
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+
+      50% {
+          background-position: 100% 50%;
+      }
+
+      100% {
+          background-position: 0% 50%;
+      }
+  }
 
 }
 
@@ -29,7 +44,7 @@ body {
   text-align: center;
   font-size: 24px;
   margin-bottom: 15px;
-  color: $color-texto-titulo;
+  color:#FFFFFF;
 
 
 }
@@ -40,7 +55,7 @@ body {
   margin: 60px;
   padding: 10px;
   color: #000000 !important;
-  background-color: #e36866b0 !important;
+  background-color: #e36866 !important;
 
   .card__texto {
     font-size: 24px;
@@ -151,3 +166,27 @@ button:nth-child(5):hover~button {
 
   }
 }
+
+.masinfo__contenedor {
+
+  .servicios__texto {
+      font-size: 20px;
+      font-weight: bold;
+  
+  }
+  
+  .servicios__contenedor {
+      width: 16rem;
+      color: #ffffff;
+      text-align: center;
+  
+  
+  
+  }
+  
+  
+  .servicios__img {
+      height: 16vh;
+      width: 16vh;
+  }
+  }

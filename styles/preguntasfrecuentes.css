@@ -1,21 +1,20 @@
 /*VARIABLES DE COLOR*/
 /*SECCION PREGUNTAS FRECUENTES*/
 body {
-  margin-top: 100px;
-  max-width: 100%;
-  text-align: left;
-  min-height: 90vh;
   background: url(../assets/imagenes/fondopreguntas.png) center no-repeat fixed;
   background-size: cover; }
 
+.preguntas_frecuentes_main {
+  margin-top: 120px;
+  margin-bottom: 60px; }
+
 .seccion__preguntas {
-  background-color: #1a1919;
-  margin: 120px 0px 120px 120px;
+  background: #1a1919a1;
   border-radius: 10px 10px 10px 10px; }
   .seccion__preguntas .preguntas__titulo {
     margin-top: 10px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 36px;
     font-weight: 600;
     letter-spacing: 3px; }
@@ -31,8 +30,18 @@ body {
     text-align: justify;
     padding: 10px;
     color: #ffffff;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: bold; }
 
-.imagen__estilos {
-  margin: 120px 120px 120px 120px;
-  border-radius: 10px 10px 10px 10px; }
+.masinfo__contenedor {
+  background: linear-gradient(90deg, #585656, #ce4c4c); }
+  .masinfo__contenedor .servicios__texto {
+    font-size: 20px;
+    font-weight: bold; }
+  .masinfo__contenedor .servicios__contenedor {
+    width: 16rem;
+    color: #ffffff;
+    text-align: center; }
+  .masinfo__contenedor .servicios__img {
+    height: 16vh;
+    width: 16vh; }

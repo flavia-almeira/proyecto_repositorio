@@ -25,9 +25,6 @@ $logo-width:300px;
     align-items: center;
     background: $color-texto-titulo;
 
-
-
-
     .logo {
         width: $logo-width/3;
 
@@ -39,7 +36,7 @@ $logo-width:300px;
 
 
         &:hover {
-            color: #e7e7e7;
+            color: #e7e7e7 !important;
         }
     }
 
@@ -89,57 +86,43 @@ $logo-width:300px;
 
 }
 
-.container {
-
-
+.masinfo__contenedor {
 
     .servicios__texto {
         font-size: 20px;
         font-weight: bold;
 
-
-
     }
 
     .servicios__contenedor {
-        margin: 0 auto;
-        background: $color-texto-titulo;
-        width: 12rem;
+        width: 16rem;
         color: #ffffff;
-        border-radius: 10px 10px 10px 10px;
         text-align: center;
 
+
+
     }
+
 
     .servicios__img {
         height: 16vh;
         width: 16vh;
     }
-
 }
 
-    /*FOOTER*/
 
-    footer {
 
-        .footer__redes {
-            display: flex;
-            padding: 5px;
-            background: #1a1919;
-            justify-content: center;
-            padding: 16px;
+/*FOOTER*/
 
-            .footer__redes__img {
-                height: 20px;
-                margin: 0 16px;
-            }
-        }
-    }
+footer {
+    background-color: $primary-footer-color;
+
 
     .mapa__desitio {
         display: flex;
         justify-content: center;
-        background-color: #1a1919;
+
+
 
         & .mapa__desitio__lista li {
             display: inline;
@@ -147,12 +130,13 @@ $logo-width:300px;
             padding-right: 3px;
 
 
+
             & a {
-                font-size: 20px;
+                font-size: 16px;
                 list-style: none;
                 text-decoration: none;
-                margin-left: 25px;
                 color: #ffffff;
+
 
                 &:hover {
                     color: #ff7673;
@@ -161,3 +145,23 @@ $logo-width:300px;
         }
 
     }
+
+    .footer__redes {
+        display: flex;
+        justify-content: center;
+
+
+        .footer__redes__img {
+            height: 30px;
+            margin: 0 16px 16px;
+        }
+
+
+    }
+
+    .copy__footer {
+        color: #ffffff;
+        margin-bottom: 0;
+    }
+
+}

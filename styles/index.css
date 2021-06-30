@@ -8,7 +8,7 @@ body {
   margin-top: 60px; }
 
 .frase__img {
-  opacity: 0.6;
+  opacity: 0.5;
   max-width: 100%; }
 
 .productosdestacados__texto {
@@ -26,7 +26,8 @@ body {
     filter: gray;
     -webkit-filter: grayscale(100%);
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    border-radius: 10px 10px 10px 10px; }
     .card__inicio__cards .imagen__efecto:hover {
       filter: none;
       -webkit-filter: grayscale(0%); }
@@ -43,68 +44,36 @@ body {
   margin: 80px 0 120px; }
 
 .button {
-  min-width: 300px;
-  min-height: 60px;
   font-size: 30px;
   color: #ffffff;
   background: #ff7673;
   background: linear-gradient(90deg, #e68181 0%, #e95e5e 100%);
   border: none;
-  border-radius: 1000px;
+  border-radius: 100px;
   box-shadow: 12px 12px 24px rgba(223, 44, 67, 0.64);
   transition: all 0.3s ease-in-out 0s;
   cursor: pointer;
   outline: none;
-  position: relative;
   padding: 10px; }
-
-button::before {
-  content: '';
-  border-radius: 1000px;
-  min-width: calc(300px + 12px);
-  min-height: calc(60px + 12px);
-  border: 6px solid #ff7673;
-  box-shadow: 0 0 60px rgba(216, 14, 14, 0.64);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  transition: all .3s ease-in-out 0s; }
 
 .button:hover,
 .button:focus {
+  text-decoration: none;
   color: #000000;
-  transform: translateY(-6px); }
+  transform: translateY(-10px); }
 
-button:hover::before,
-button:focus::before {
-  opacity: 1; }
+.masinfo__contenedor {
+  background: linear-gradient(90deg, #585656, #ce4c4c); }
 
-button::after {
-  content: '';
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  border: 6px solid #ff7673;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  animation: ring 1.5s infinite; }
+.servicios__texto {
+  font-size: 20px;
+  font-weight: bold; }
 
-button:hover::after,
-button:focus::after {
-  animation: none;
-  display: none; }
+.servicios__contenedor {
+  width: 16rem;
+  color: #ffffff;
+  text-align: center; }
 
-@keyframes ring {
-  0% {
-    width: 30px;
-    height: 30px;
-    opacity: 1; }
-  100% {
-    width: 300px;
-    height: 300px;
-    opacity: 0; } }
+.servicios__img {
+  height: 16vh;
+  width: 16vh; }
